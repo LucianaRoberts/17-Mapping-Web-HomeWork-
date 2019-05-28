@@ -1,0 +1,47 @@
+/* remove default margin and padding from body */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(184, 187, 187);
+}
+
+h2 {
+    font: bold 2em/1em "Arial Black", "MS Serif", "New York", serif;
+    margin: 30;
+    padding: 20;
+    color: #19191a;
+    text-align: center;
+}
+
+
+/* set map, body, and html to 100% of the screen size */
+
+#map,
+body,
+html {
+    height: 100%;
+}
+
+
+/* ADD legend style aspects */
+
+.legend {
+    padding: 6px 8 px;
+    line-height: 18px;
+    color: "gray";
+    background: #fff;
+    opacity: 0.7;
+    /* background: rgba(255, 255, 255, 10); */
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 10px;
+    background: #fff;
+}
